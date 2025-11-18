@@ -1,0 +1,108 @@
+<!Doctype htm>
+<html lang="en">
+<head> 
+    <title> I lead form</title>
+<style>
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;        /* full height screen */
+    margin: 0;
+    background-color: #f2f7ff;
+}
+
+form {
+    background-color: aliceblue;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.box1{
+    border-radius : 15px;
+    border:1px solid lightblue;
+    padding:10px;
+}
+.submit input:hover{
+    color:black;
+    background-color:darkgoldenrod
+     
+}
+
+
+
+</style>
+</head>
+<body>
+    <div class="box1">
+<form action="#" method="POST">
+<div>
+<h1> I LEAD FORM</h1>
+<div>
+<label for="fname">Firstname</label>
+<br><input type="text" id="fname" name="Firstname" required>
+</div>
+<br>
+<div > 
+    <label for="lname">Lastname </label>
+<br><input type="text" id="lname" name="Lastname" required>
+</div>
+ <br>
+<div >
+   
+    <label for="email">Email</label>
+
+           <br><input type="text"id="email" name="email" required>
+
+</div>
+<br>
+<div>
+<label>Gender</label>
+<input type="radio" id="male" name="gend" ><label for="male"> Male</label>
+<input type="radio" id="female" name="gend" ><label for="female">Female</label>
+</div>
+<br>
+<div>
+<label for="ileadlev">I LEAD LEVEL</label>
+
+<select id="ileadlev"name="I lead level">
+<option value=" ">Choose i lead level</option>
+<option value="I choose">I choose</option>
+
+<option value="I do">I do</option>
+<option value="I lead">I lead</option>
+<option value="Finished" >Finished</option>
+</select>
+
+
+
+</div>
+<br>
+<div>
+    <label for="lesson learnt"> Lesson learnt from I lead program</label> <br>
+<br>
+    <textarea id="lesson learnt" col="100" row="100" placeholder="The lesson I learnt from I lead is :"></textarea>
+
+</div>
+<br>
+
+<div>
+<label for="comment"> Comments</label>
+<br>
+
+<br><textarea id="comment" col="100" row="100" placeholder="Please let us know what to improve or what should be changed in I lead"></textarea>
+
+
+</div>
+<br>
+<div class="submit">
+    <label for="submit"></label>
+<input type="submit" id="submit" value="submit">
+
+</div>
+</div>
+</form>
+</div>
+</body>
+</html>
